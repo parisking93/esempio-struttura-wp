@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* common */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.m-tb {
+    margin: 10px 0px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* inizio corpo */
+
+
+
+body{
+    background-image: url(../img/natural-pattern.png);
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.header-top {
+    background-image: url(../img/natural-header.jpg);
+    border: 10px solid white;
+    text-align: center;
+    height: 340px;
+}
+
+.header-top img {
+    width: 40%;
+}
+
+h2 {
+
+    color: white;
+}
+
+.header-menu {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: grey;    
+}
+
+.header-menu li {
+    margin: 0 10px;
+}
+
+.header-menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+main {
+    padding: 20px 0;
+    
+}
+
+.main-aside {
+    width: 20%;
+    float: left;
+}
+
+.main-section {
+    width: 50%;
+    float: left;
+    margin: 0% 5%;
+}
+
+.widget {
+    background-color: powderblue;
+    width: 100%;
+}
+
+
+/* footer */
+
+.container-footer {
+    height: 150px;
+    background-color: sandybrown;
+}
+
+
+
+
+
+  /* debug */
+
+/* .debug .container {
+    background-color: blue;
+} */
+
+.debug header {
+    background-color: red;
+    height: 400px ;
+}
+
+/* .debug .header-top {
+} */
+
+/* .debug .header-menu {
+    background-color: pink;
+} */
+
+.debug .main-asidesx {
+    height: 200px;
+    background-color: yellow;
+}
+
+.debug .main-section {
+    height: 200px;
+    background-color: green;
+}
+
+
+.debug .widget {
+    height: 200px;
+}
+
+
+.debug .container-footer {
+    height: 150px;
+    background-color: sandybrown;
+}
